@@ -333,7 +333,7 @@ function init() {
                         currentLyric = "|End|";
 
 
-                        changeStatus(`[${formatSeconds((trackProgressMs / 1000).toFixed(0))}] Song lyrics - |End|`);
+                        changeStatus(`[${formatSeconds((trackProgressMs / 1000).toFixed(0))}] |End|`);
 
 
                         break;
@@ -348,7 +348,7 @@ function init() {
                         currentLyric = lyric.words;
 
 
-                        changeStatus(`[${formatSeconds((trackProgressMs / 1000).toFixed(0))}] Song lyrics - ${lyric.words}`);
+                        changeStatus(`[${formatSeconds((trackProgressMs / 1000).toFixed(0))}] ${lyric.words}`);
 
 
                         break;
@@ -363,8 +363,8 @@ function init() {
                 currentLyric = lyric.words;
 
 
-                changeStatus(`[${formatSeconds((trackProgressMs / 1000).toFixed(0))}] Song lyrics - ${!currentLyric ? "|End|" : currentLyric}`);
-                //                                                                                         Will change some time later
+                changeStatus(`[${formatSeconds((trackProgressMs / 1000).toFixed(0))}] ${!currentLyric ? "|End|" : currentLyric}`);
+                //                                                                                         
 
 
                 break;
