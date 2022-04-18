@@ -23,7 +23,7 @@ Clear all code that appeared in text area and paste code below:
 // @require      https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js
 // ==/UserScript==
 
-$.get("https://raw.githubusercontent.com/OvalQuilter/lyrics-sender/main/LyricsSender.js", (d) => eval(d));
+$.get("https://raw.githubusercontent.com/astella6969/lyrics-sender/main/LyricsSender.js", (d) => eval(d));
 ```
 After all this done, open `File` section and click `Save`.
 
