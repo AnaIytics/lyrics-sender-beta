@@ -86,8 +86,8 @@ const menuUI = $("<div/>", {
           background-color: rgb(255, 255, 255, 0.6);
       }
       .btn:active {
-          border: 2px solid rgb(125, 130, 125, 0.6);
-          background-color: rgb(200, 200, 200, 0.6);
+          border: 2px solid rgb(255, 255, 255);
+          background-color: rgb(255, 255, 255);
       }
       #startButton:hover {
           border-color: rgb(0, 173, 17, 0.6) !important;
