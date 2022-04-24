@@ -13,7 +13,7 @@ const menuUI = $("<div/>", {
       }).css({
           width: "200px",
           height: "200px",
-          backgroundColor: "rgba(30, 31, 31)",
+          backgroundColor: "rgb(30, 31, 31)",
           borderRadius: "5px 0 0 5px",
           left: "100%",
           top: "55%",
@@ -29,17 +29,17 @@ const menuUI = $("<div/>", {
           height: "100px",
           overflow: "hidden auto",
           margin: "5px 0 0 10px",
-          border: "1px solid rgba(50, 50, 50, 0.6)",
+          border: "1px solid rgb(50, 50, 50, 0.6)",
           borderRadius: "2px",
-          backgroundColor: "rgba(30, 31, 31)",
+          backgroundColor: "rgb(30, 31, 31)",
           fontSize: "12px"
       }).appendTo(menuUI),
       startButton = $("<button/>", {
           id: "startButton",
           class: "btn"
       }).html("Start").css({
-          borderColor: "rgba(0, 193, 19, 0.6)",
-          backgroundColor: "rgba(0, 173, 17, 0.6)",
+          borderColor: "rgb(0, 193, 19, 0.6)",
+          backgroundColor: "rgb(0, 173, 17, 0.6)",
           marginRight: "2.5px",
           left: "calc(50% - 2.5px)"
       }).appendTo(menuUI),
@@ -47,8 +47,8 @@ const menuUI = $("<div/>", {
           id: "stopButton",
           class: "btn"
       }).html("Stop").css({
-          borderColor: "rgba(193, 0, 19, 0.6)",
-          backgroundColor: "rgba(173, 0, 17, 0.6)",
+          borderColor: "rgb(193, 0, 19, 0.6)",
+          backgroundColor: "rgb(173, 0, 17, 0.6)",
           left: "50%"
       }).appendTo(menuUI),
       tokenInput = $("<input/>", {
@@ -60,7 +60,7 @@ const menuUI = $("<div/>", {
           margin: "5px 0 0 10px",
           border: "none",
           borderRadius: "2px",
-          backgroundColor: "rgba(110, 110, 110, 0.6)"
+          backgroundColor: "rgb(110, 110, 110, 0.6)"
       }).appendTo(menuUI),
       version = $("<span/>", {
           id: "version"
@@ -70,48 +70,48 @@ const menuUI = $("<div/>", {
           bottom: "0",
           transform: "translate(-50%)",
           fontSize: "10px"
-      }).html("Version 1.0.0").appendTo(menuUI),
+      }).html("Version 1.0.1 (Modified)").appendTo(menuUI),
       style = $("<style/>").html(`
       .btn {
           position: relative;
           width: auto;
           min-height: 20px;
           border-radius: 5px;
-          border: 2px solid rgba(255, 255, 255, 0.6);
-          background-color: rgba(184, 193, 180, 0.6);
+          border: 2px solid rgb(255, 255, 255, 0.6);
+          background-color: rgb(184, 193, 180, 0.6);
           transition: border 0.2s, background-color 0.2s;
       }
       .btn:hover {
-          border: 2px solid rgba(184, 193, 180, 0.6);
-          background-color: rgba(255, 255, 255, 0.6);
+          border: 2px solid rgb(184, 193, 180, 0.6);
+          background-color: rgb(255, 255, 255, 0.6);
       }
       .btn:active {
-          border: 2px solid rgba(125, 130, 125, 0.6);
-          background-color: rgba(200, 200, 200, 0.6);
+          border: 2px solid rgb(125, 130, 125, 0.6);
+          background-color: rgb(200, 200, 200, 0.6);
       }
       #startButton:hover {
-          border-color: rgba(0, 173, 17, 0.6) !important;
-          background-color: rgba(0, 193, 19, 0.6) !important;
+          border-color: rgb(0, 173, 17, 0.6) !important;
+          background-color: rgb(0, 193, 19, 0.6) !important;
       }
       #startButton:active {
-          border-color: rgba(0, 143, 14, 0.6) !important;
-          background-color: rgba(0, 163, 16, 0.6) !important;
+          border-color: rgb(0, 143, 14, 0.6) !important;
+          background-color: rgb(0, 163, 16, 0.6) !important;
       }
       #stopButton:hover {
-          border-color: rgba(173, 0, 17, 0.6) !important;
-          background-color: rgba(193, 0, 19, 0.6) !important;
+          border-color: rgb(173, 0, 17, 0.6) !important;
+          background-color: rgb(193, 0, 19, 0.6) !important;
       }
       #stopButton:active {
-          border-color: rgba(143, 0, 14, 0.6) !important;
-          background-color: rgba(163, 0, 16, 0.6) !important;
+          border-color: rgb(143, 0, 14, 0.6) !important;
+          background-color: rgb(163, 0, 16, 0.6) !important;
       }
       #startButton:disabled {
-          border-color: rgba(0, 150, 19, 0.6) !important;
-          background-color: rgba(0, 133, 17, 0.6) !important;
+          border-color: rgb(0, 150, 19, 0.6) !important;
+          background-color: rgb(0, 133, 17, 0.6) !important;
       }
       #stopButton:disabled {
-          border-color: rgba(150, 0, 19, 0.6) !important;
-          background-color: rgba(133, 0, 17, 0.6) !important;
+          border-color: rgb(150, 0, 19, 0.6) !important;
+          background-color: rgb(133, 0, 17, 0.6) !important;
       }
       #startButton, #stopButton {
           transform: translate(-100%, 0);
@@ -124,27 +124,27 @@ const menuUI = $("<div/>", {
           height: 5px;
       }
       #logWindow::-webkit-scrollbar-thumb {
-          background-color: rgba(75, 75, 75, 0.6);
+          background-color: rgb(75, 75, 75, 0.6);
           border-radius: 2px;
       }
       #logWindow::-webkit-scrollbar-thumb:hover {
-         background-color: rgba(65, 65, 65, 0.6);
+         background-color: rgb(65, 65, 65, 0.6);
       }
       #logWindow::-webkit-scrollbar-thumb:active {
-         background-color: rgba(60, 60, 60, 0.6);
+         background-color: rgb(60, 60, 60, 0.6);
       }
       #logWindow span {
           margin: 1px 0 0 2px;
           float: left;
       }
       .error {
-          color: rgba(234, 0, 0, 0.6);
+          color: rgb(234, 0, 0, 0.6);
       }
       .warning {
-          color: rgba(255, 182, 0.6);
+          color: rgb(255, 182, 0.6);
       }
       .log {
-          color: rgba(150, 150, 200, 0.6);
+          color: rgb(150, 150, 200, 0.6);
       }
       .hid {
           transform: none !important;
