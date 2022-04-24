@@ -48,7 +48,7 @@ const menuUI = $("<div/>", {
           class: "btn"
       }).html("Stop").css({
           borderColor: "rgb(193, 0, 19, 0.6)",
-          backgroundColor: "rgb(173, 0, 17, 0.6)",
+          backgroundColor: "rgb(255, 105, 97)",
           left: "50%"
       }).appendTo(menuUI),
       tokenInput = $("<input/>", {
@@ -70,7 +70,7 @@ const menuUI = $("<div/>", {
           bottom: "0",
           transform: "translate(-50%)",
           fontSize: "10px"
-      }).html("Version 1.0.1 (Modified)").appendTo(menuUI),
+      }).html("Version 1.0.1").appendTo(menuUI),
       style = $("<style/>").html(`
       .btn {
           position: relative;
