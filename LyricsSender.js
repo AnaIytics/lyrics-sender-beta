@@ -77,8 +77,8 @@ const menuUI = $("<div/>", {
           width: auto;
           min-height: 20px;
           border-radius: 5px;
-          border: 2px solid rgb(255, 255, 255, 0.6);
-          background-color: rgb(184, 193, 180, 0.6);
+          border: 2px solid rgb(255, 255, 255);
+          background-color: rgb(255, 255, 255);
           transition: border 0.2s, background-color 0.2s;
       }
       .btn:hover {
