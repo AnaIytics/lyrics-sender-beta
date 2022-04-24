@@ -144,7 +144,7 @@ const menuUI = $("<div/>", {
           color: rgb(255, 182, 0.6);
       }
       .log {
-          color: rgb(150, 150, 200, 0.6);
+          color: rgb(255, 255, 255);
       }
       .hid {
           transform: none !important;
