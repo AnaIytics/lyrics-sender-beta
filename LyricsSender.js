@@ -13,7 +13,7 @@ const menuUI = $("<div/>", {
       }).css({
           width: "200px",
           height: "200px",
-          backgroundColor: "rgba(100, 100, 100, 0.7)",
+          backgroundColor: "rgba(30, 31, 31, 0.7)",
           borderRadius: "5px 0 0 5px",
           left: "100%",
           top: "55%",
@@ -31,7 +31,7 @@ const menuUI = $("<div/>", {
           margin: "5px 0 0 10px",
           border: "1px solid rgba(50, 50, 50, 0.6)",
           borderRadius: "2px",
-          backgroundColor: "rgba(110, 110, 110, 0.6)",
+          backgroundColor: "rgba(30, 31, 31, 0.7)",
           fontSize: "12px"
       }).appendTo(menuUI),
       startButton = $("<button/>", {
