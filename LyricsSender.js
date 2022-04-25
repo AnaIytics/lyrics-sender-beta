@@ -40,9 +40,8 @@ const menuUI = $("<div/>", {
       }).html("Start").css({
           borderColor: "rgb(119, 221, 119)",
           backgroundColor: "rgb(119, 221, 119)",
-          color: rgb(255, 255, 255),
           marginRight: "2.5px",
-          left: "calc(50% - 2.5px)",
+          left: "calc(50% - 2.5px)"
       }).appendTo(menuUI),
       stopButton = $("<button/>", {
           id: "stopButton",
@@ -50,7 +49,6 @@ const menuUI = $("<div/>", {
       }).html("Stop").css({
           borderColor: "rgb(255, 105, 97)",
           backgroundColor: "rgb(255, 105, 97)",
-          color: rgb(255, 255, 255),
           left: "50%"
       }).appendTo(menuUI),
       tokenInput = $("<input/>", {
@@ -62,7 +60,7 @@ const menuUI = $("<div/>", {
           margin: "5px 0 0 10px",
           border: "none",
           borderRadius: "2px",
-          backgroundColor: "rgb(23, 23, 23)"
+          backgroundColor: "rgb(110, 110, 110, 0.6)"
       }).appendTo(menuUI),
       version = $("<span/>", {
           id: "version"
@@ -84,36 +82,36 @@ const menuUI = $("<div/>", {
           transition: border 0.2s, background-color 0.2s;
       }
       .btn:hover {
-          border: 2px solid rgb(255, 255, 255);
-          background-color: rgb(255, 255, 255);
+          border: 2px solid rgb(184, 193, 180, 0.6);
+          background-color: rgb(255, 255, 255, 0.6);
       }
       .btn:active {
           border: 2px solid rgb(255, 255, 255);
           background-color: rgb(255, 255, 255);
       }
       #startButton:hover {
-          border-color: rgb(119, 221, 119) !important;
-          background-color: rgb(119, 221, 119) !important;
+          border-color: rgb(0, 173, 17, 0.6) !important;
+          background-color: rgb(0, 193, 19, 0.6) !important;
       }
       #startButton:active {
-          border-color: rgb(119, 221, 119) !important;
-          background-color: rgb(119, 221, 119) !important;
+          border-color: rgb(0, 143, 14, 0.6) !important;
+          background-color: rgb(0, 163, 16, 0.6) !important;
       }
       #stopButton:hover {
-          border-color: rgb(255, 105, 97) !important;
-          background-color: rgb(255, 105, 97) !important;
+          border-color: rgb(173, 0, 17, 0.6) !important;
+          background-color: rgb(193, 0, 19, 0.6) !important;
       }
       #stopButton:active {
-          border-color: rgb(255, 105, 97) !important;
-          background-color: rgb(255, 105, 97) !important;
+          border-color: rgb(143, 0, 14, 0.6) !important;
+          background-color: rgb(163, 0, 16, 0.6) !important;
       }
       #startButton:disabled {
-          border-color: rgb(119, 221, 119) !important;
-          background-color: rgb(119, 221, 119) !important;
+          border-color: rgb(0, 150, 19, 0.6) !important;
+          background-color: rgb(0, 133, 17, 0.6) !important;
       }
       #stopButton:disabled {
-          border-color: rgb(255, 105, 97) !important;
-          background-color: rgb(255, 105, 97) !important;
+          border-color: rgb(150, 0, 19, 0.6) !important;
+          background-color: rgb(133, 0, 17, 0.6) !important;
       }
       #startButton, #stopButton {
           transform: translate(-100%, 0);
@@ -126,27 +124,27 @@ const menuUI = $("<div/>", {
           height: 5px;
       }
       #logWindow::-webkit-scrollbar-thumb {
-          background-color: rgb(255, 255, 255);
+          background-color: rgb(75, 75, 75, 0.6);
           border-radius: 2px;
       }
       #logWindow::-webkit-scrollbar-thumb:hover {
-         background-color: rgb(255, 255, 255);
+         background-color: rgb(65, 65, 65, 0.6);
       }
       #logWindow::-webkit-scrollbar-thumb:active {
-         background-color: rgb(255, 255, 255);
+         background-color: rgb(60, 60, 60, 0.6);
       }
       #logWindow span {
           margin: 1px 0 0 2px;
           float: left;
       }
       .error {
-          color: rgb(255, 105, 97);
+          color: rgb(234, 0, 0, 0.6);
       }
       .warning {
-          color: rgb(255, 182, 0);
+          color: rgb(255, 182, 0.6);
       }
       .log {
-          color: rgb(255, 255, 255);
+          color: rgb(255, 255, 255, 0.6);
       }
       .hid {
           transform: none !important;
