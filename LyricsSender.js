@@ -124,14 +124,14 @@ const menuUI = $("<div/>", {
           height: 5px;
       }
       #logWindow::-webkit-scrollbar-thumb {
-          background-color: rgb(75, 75, 75, 0.6);
+          background-color: rgb(255, 255, 255);
           border-radius: 2px;
       }
       #logWindow::-webkit-scrollbar-thumb:hover {
-         background-color: rgb(65, 65, 65, 0.6);
+         background-color: rgb(255, 255, 255);
       }
       #logWindow::-webkit-scrollbar-thumb:active {
-         background-color: rgb(60, 60, 60, 0.6);
+         background-color: rgb(255, 255, 255);
       }
       #logWindow span {
           margin: 1px 0 0 2px;
