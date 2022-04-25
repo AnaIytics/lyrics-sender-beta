@@ -40,6 +40,7 @@ const menuUI = $("<div/>", {
       }).html("Start").css({
           borderColor: "rgb(119, 221, 119)",
           backgroundColor: "rgb(119, 221, 119)",
+          color: "rgb(255, 255, 255)",
           marginRight: "2.5px",
           left: "calc(50% - 2.5px)"
       }).appendTo(menuUI),
