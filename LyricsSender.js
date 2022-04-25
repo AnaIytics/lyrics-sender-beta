@@ -40,9 +40,9 @@ const menuUI = $("<div/>", {
       }).html("Start").css({
           borderColor: "rgb(119, 221, 119)",
           backgroundColor: "rgb(119, 221, 119)",
+          color: rgb(255, 255, 255),
           marginRight: "2.5px",
           left: "calc(50% - 2.5px)",
-          color: "rgb(255, 255, 255)"
       }).appendTo(menuUI),
       stopButton = $("<button/>", {
           id: "stopButton",
@@ -50,7 +50,7 @@ const menuUI = $("<div/>", {
       }).html("Stop").css({
           borderColor: "rgb(255, 105, 97)",
           backgroundColor: "rgb(255, 105, 97)",
-          color: "rgb(255, 255, 255)",
+          color: rgb(255, 255, 255),
           left: "50%"
       }).appendTo(menuUI),
       tokenInput = $("<input/>", {
