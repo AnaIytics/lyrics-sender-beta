@@ -62,7 +62,7 @@ const menuUI = $("<div/>", {
           margin: "5px 0 0 10px",
           border: "none",
           borderRadius: "2px",
-          backgroundColor: "rgb(255, 255, 255)"
+          backgroundColor: "rgb(23, 23, 23)"
       }).appendTo(menuUI),
       version = $("<span/>", {
           id: "version"
