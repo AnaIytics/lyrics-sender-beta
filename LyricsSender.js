@@ -49,6 +49,7 @@ const menuUI = $("<div/>", {
       }).html("Stop").css({
           borderColor: "rgb(255, 105, 97)",
           backgroundColor: "rgb(255, 105, 97)",
+          color: "rgb(255, 255, 255)",
           left: "50%"
       }).appendTo(menuUI),
       tokenInput = $("<input/>", {
@@ -82,7 +83,7 @@ const menuUI = $("<div/>", {
           transition: border 0.2s, background-color 0.2s;
       }
       .btn:hover {
-          border: 2px solid rgb(184, 193, 180);
+          border: 2px solid rgb(255, 255, 255);
           background-color: rgb(255, 255, 255);
       }
       .btn:active {
