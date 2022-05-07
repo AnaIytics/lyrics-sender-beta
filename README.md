@@ -38,3 +38,5 @@ Well, let's be honest, nothing in this world can work with 100% probability. Her
 `502` - Happens randomly. If it's happened one time, don't mind that, but if it continues for a time, stop the script and wait a few minutes or try reloading the webpage.
 
 This list can update.
+
+All credit goes to https://github.com/OvalQuilter for this script, I have only modified it
