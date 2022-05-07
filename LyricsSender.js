@@ -186,7 +186,6 @@ function addLog(text, t) {
     $("<span/>", { class: t.toLowerCase() }).html(`[${t}]: ${text}`).appendTo(logWindow)[0].scrollIntoView(false);
 }
 
-function formatSeconds(s){return(s-(s%=60))/60+(9<s?':':':0')+s}
 
 function refreshAccessToken() {
     $.get({ url: "https://open.spotify.com/get_access_token?reason=transport&productType=web_player", async: false, success: (d) => accessToken = d.accessToken});
@@ -333,7 +332,7 @@ function init() {
                         currentLyric = "|End|";
 
 
-                        changeStatus(`[${formatSeconds((trackProgressMs / 1000).toFixed(0))}] |End|`);
+                        changeStatus(`|End|`);
 
 
                         break;
@@ -348,7 +347,7 @@ function init() {
                         currentLyric = lyric.words;
 
 
-                        changeStatus(`[${formatSeconds((trackProgressMs / 1000).toFixed(0))}] ${lyric.words}`);
+                        changeStatus(`${lyric.words}`);
 
 
                         break;
@@ -363,7 +362,7 @@ function init() {
                 currentLyric = lyric.words;
 
 
-                changeStatus(`[${formatSeconds((trackProgressMs / 1000).toFixed(0))}] ${!currentLyric ? "|End|" : currentLyric}`);
+                changeStatus(`${!currentLyric ? "|End|" : currentLyric}`);
                 //                                                                                         
 
 
