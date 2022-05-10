@@ -327,12 +327,12 @@ function init() {
 
                     if(trackDurationMs - (trackProgressMs + 500) < 1150) {
 
-                        if(currentLyric === "|End|") break;
+                        if(currentLyric === "") break;
 
-                        currentLyric = "|End|";
+                        currentLyric = "";
 
 
-                        changeStatus(`|End|`);
+                        changeStatus(``);
 
 
                         break;
@@ -362,7 +362,8 @@ function init() {
                 currentLyric = lyric.words;
 
 
-                changeStatus(`${!currentLyric ? "|End|" : currentLyric}`);
+                changeStatus(`${!currentLyric ? "" : currentLyric}`);
+
                 //                                                                                         
 
 
