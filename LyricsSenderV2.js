@@ -327,8 +327,6 @@ function init() {
 
                     if(trackDurationMs - (trackProgressMs + 500) < 1150) {
 
-                        currentLyric = ""
-
 
                         changeStatus();
 
