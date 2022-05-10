@@ -327,12 +327,10 @@ function init() {
 
                     if(trackDurationMs - (trackProgressMs + 500) < 1150) {
 
-                        if(currentLyric === "") break;
-
-                        currentLyric = "";
+                        currentLyric = ""
 
 
-                        changeStatus(``);
+                        changeStatus();
 
 
                         break;
