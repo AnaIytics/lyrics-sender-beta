@@ -358,7 +358,7 @@ function init() {
                 currentLyric = lyric.words;
 
 
-                changeStatus(`${!currentLyric ? "" : currentLyric}`);
+                changeStatus();
 
                 //                                                                                         
 
