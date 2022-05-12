@@ -39,4 +39,5 @@ Well, let's be honest, nothing in this world can work with 100% probability. Her
 
 This list can update.
 
+> Credits
 All credit goes to https://github.com/OvalQuilter for this script, I have only modified it
