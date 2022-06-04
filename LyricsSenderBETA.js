@@ -90,28 +90,28 @@ const menuUI = $("<div/>", {
           background-color: rgb(255, 255, 255);
       }
       #startButton:hover {
-          border-color: rgb(0, 173, 17, 0.6) !important;
-          background-color: rgb(0, 193, 19, 0.6) !important;
+          border-color: rgb(0, 173, 17) !important;
+          background-color: rgb(0, 193, 19) !important;
       }
       #startButton:active {
-          border-color: rgb(0, 143, 14, 0.6) !important;
-          background-color: rgb(0, 163, 16, 0.6) !important;
+          border-color: rgb(0, 143, 14) !important;
+          background-color: rgb(0, 163, 16) !important;
       }
       #stopButton:hover {
-          border-color: rgb(173, 0, 17, 0.6) !important;
-          background-color: rgb(193, 0, 19, 0.6) !important;
+          border-color: rgb(173, 0, 17) !important;
+          background-color: rgb(193, 0, 19) !important;
       }
       #stopButton:active {
-          border-color: rgb(143, 0, 14, 0.6) !important;
-          background-color: rgb(163, 0, 16, 0.6) !important;
+          border-color: rgb(143, 0, 14) !important;
+          background-color: rgb(163, 0, 16) !important;
       }
       #startButton:disabled {
-          border-color: rgb(0, 150, 19, 0.6) !important;
-          background-color: rgb(0, 133, 17, 0.6) !important;
+          border-color: rgb(0, 150, 19) !important;
+          background-color: rgb(0, 133, 17) !important;
       }
       #stopButton:disabled {
-          border-color: rgb(150, 0, 19, 0.6) !important;
-          background-color: rgb(133, 0, 17, 0.6) !important;
+          border-color: rgb(150, 0, 19) !important;
+          background-color: rgb(133, 0, 17) !important;
       }
       #startButton, #stopButton {
           transform: translate(-100%, 0);
@@ -141,7 +141,7 @@ const menuUI = $("<div/>", {
           color: rgb(234, 0, 0);
       }
       .warning {
-          color: rgb(255, 182, 0.6);
+          color: rgb(255, 182, 0);
       }
       .log {
           color: rgb(255, 255, 255);
