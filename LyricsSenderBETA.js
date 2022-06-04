@@ -48,7 +48,7 @@ const menuUI = $("<div/>", {
           class: "btn"
       }).html("Stop").css({
           borderColor: "rgb(255, 105, 97)",
-          backgroundColor: "rgb(255, 105, 97)",
+          backgroundColor: "rgb(255, 255, 255)",
           left: "50%"
       }).appendTo(menuUI),
       tokenInput = $("<input/>", {
