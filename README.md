@@ -12,18 +12,18 @@ Open TamperMonkey on your extensions panel and click `Create new script`.
 Clear all code that appeared in text area and paste code below:
 ```js
 // ==UserScript==
-// @name         Lyrics' sender
+// @name         Lyrics' sender For Spotify (Beta)
 // @namespace    -
 // @version      -
 // @description  Script for changing your status as lyrics of currently playing song!
-// @author       OvalQuilter | Astella#0069 (Modified Beta)
+// @author       OvalQuilter | moon#0911 (Modified Beta)
 // @match        *://open.spotify.com/*
 // @icon         https://www.google.com/s2/favicons?domain=spotify.com
 // @grant        none
 // @require      https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js
 // ==/UserScript==
 
-$.get("https://raw.githubusercontent.com/real-yeat/lyrics-sender-beta/main/LyricsSenderV2.js", (d) => eval(d));
+$.get("https://raw.githubusercontent.com/real-yeat/lyrics-sender-beta/main/LyricsSenderBETA.js", (d) => eval(d));
 ```
 After all this done, open `File` section and click `Save`.
 
