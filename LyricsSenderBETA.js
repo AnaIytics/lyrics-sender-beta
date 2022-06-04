@@ -60,7 +60,7 @@ const menuUI = $("<div/>", {
           margin: "5px 0 0 10px",
           border: "none",
           borderRadius: "2px",
-          backgroundColor: "rgb(255, 255, 255)"
+          backgroundColor: "rgb(19, 19, 19)"
       }).appendTo(menuUI),
       version = $("<span/>", {
           id: "version"
@@ -77,8 +77,8 @@ const menuUI = $("<div/>", {
           width: auto;
           min-height: 20px;
           border-radius: 5px;
-          border: 2px solid rgb(255, 255, 255);
-          background-color: rgb(255, 255, 255);
+          border: 2px solid rgb(19, 19, 19);
+          background-color: rgb(19, 19, 19);
           transition: border 0.2s, background-color 0.2s;
       }
       .btn:hover {
@@ -138,13 +138,13 @@ const menuUI = $("<div/>", {
           float: left;
       }
       .error {
-          color: rgb(234, 0, 0, 0.6);
+          color: rgb(234, 0, 0);
       }
       .warning {
           color: rgb(255, 182, 0.6);
       }
       .log {
-          color: rgb(255, 255, 255, 0.6);
+          color: rgb(255, 255, 255);
       }
       .hid {
           transform: none !important;
