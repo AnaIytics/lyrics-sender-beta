@@ -60,7 +60,7 @@ const menuUI = $("<div/>", {
           margin: "5px 0 0 10px",
           border: "none",
           borderRadius: "2px",
-          backgroundColor: "rgb(110, 110, 110, 0.6)"
+          backgroundColor: "rgb(255, 255, 255)"
       }).appendTo(menuUI),
       version = $("<span/>", {
           id: "version"
@@ -82,8 +82,8 @@ const menuUI = $("<div/>", {
           transition: border 0.2s, background-color 0.2s;
       }
       .btn:hover {
-          border: 2px solid rgb(184, 193, 180, 0.6);
-          background-color: rgb(255, 255, 255, 0.6);
+          border: 2px solid rgb(255, 255, 255);
+          background-color: rgb(255, 255, 255);
       }
       .btn:active {
           border: 2px solid rgb(255, 255, 255);
